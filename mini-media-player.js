@@ -354,6 +354,17 @@ class MiniMediaPlayer extends LitElement {
           padding: 16px;
           position: relative;
         }
+
+        ha-card[has-artwork] {
+          height: 250px !important;
+        }
+        ha-card[has-artwork] #mediacontrols {
+          left: 16px;
+          right: 16px;
+          bottom: 16px;
+          position: absolute !important;
+          margin-left: 0px !important;
+        }
         ha-card header {
           display: none;
         }
